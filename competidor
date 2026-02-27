@@ -9,4 +9,4 @@ else:
         
         salario = (horas_normais * valor_hora) + (horas_extras * valor_extras)
 
-print( "salario final : R$", (salario))
+print(f"salario final : R$ {salario})
