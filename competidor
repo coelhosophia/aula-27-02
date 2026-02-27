@@ -1,0 +1,12 @@
+valor_hora = 60
+horas_trabalhadas = float (input("digite o numero de horas trabalhadas:"))
+if horas_trabalhadas <= 20 :
+        salario = horas_trabalhadas * valor_hora
+else:
+        horas_normais= 20
+        horas_extras = horas_trabalhadas - 20
+        valor_extras = valor_hora * 1.30
+        
+        salario = (horas_normais * valor_hora) + (horas_extras * valor_extras)
+
+print( "salario final : R$", (salario))
